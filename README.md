@@ -1,6 +1,6 @@
 # LangChain Agent Starter
 
-这是一个用于学习 LangChain Agent 的简单示例项目。它演示了如何使用 TypeScript 创建一个自定义工具（Tool）并将其集成到一个基于 OpenAI 兼容接口（这里使用的是 SiliconFlow 的 Qwen 模型）的 Agent 中。
+这是一个用于学习 [LangChain] Agent 的简单示例项目。它演示了如何使用 TypeScript 创建一个自定义工具（Tool）并将其集成到一个基于 OpenAI 兼容接口（这里使用的是 [SiliconFlow] 的 Qwen 模型）的 Agent 中。
 
 ## 功能特性
 
@@ -47,3 +47,8 @@ npx tsx src/index.ts
 ## 代码结构
 
 - `src/index.ts`: 主要逻辑文件，包含 Agent 的创建、工具定义和调用。
+
+<!-- Link -->
+
+[LangChain]: https://docs.langchain.com/
+[SiliconFlow]: https://cloud.siliconflow.cn/
